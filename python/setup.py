@@ -47,6 +47,7 @@ setup(
         'plot': ['matplotlib'],
         'tf': ["tensorflow>=1.1.0"],
         'tf_gpu': ["tensorflow-gpu>=1.1.0"],
+        'pytorch': ["pytorch>=0.3.1"],
         'build': build_requires,
         'test': test_requires,
         'dev': dev_requires,
