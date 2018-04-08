@@ -21,7 +21,7 @@ matrix:
 # command to install dependencies
 install:
   - pip install --upgrade pip setuptools
-  - cd python && pip install -r requirements-ci.txt
+  - cd python && pip install -q -r requirements-ci.txt
 
   - if [[ "$KERAS_BACKEND" == "theano" ]]; then
       pip install theano;
